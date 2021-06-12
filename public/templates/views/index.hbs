@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Weather</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+
+<body>
+    <div class="main-content">
+        <!--
+    partialsi kullanma yöntemi
+        --> {{>header}}
+
+        <form>
+            <input placeholder="Location">
+            <button>Search</button>
+        </form>
+
+
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+
+    </div>
+    {{>footer}}
+
+    <script type="text/javascript" src="/js/app.js" charset="utf-8"></script>
+</body>
+
+</html>
